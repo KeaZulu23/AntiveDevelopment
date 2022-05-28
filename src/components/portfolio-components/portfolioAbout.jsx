@@ -11,7 +11,7 @@ import client6 from "../../assets/img/logo/logo12.png";
 
 const portfolioAbout = () => {
     return (
-        <div className="container mx-auto pt-16" style={{paddingBottom: "50px", paddingLeft: "50px", paddingRight: "50px"}}>
+        <div className="container mx-auto pt-16" style={{paddingBottom: "50px", paddingLeft: "20px", paddingRight: "20px"}}>
             <div className="xl:w-full w-11/12 mx-auto">
                 <h1 className="text-gray-800 font-extrabold xl:text-5xl text-3xl mb-4 text-center xl:text-left md:text-left lg:text-left">Hear From Our Customers</h1>
                 <p className="text-xl xl:text-left md:text-left lg:text-left md:w-full text-center xl:w-2/3 lg:w-2/3 w-11/12 mx-auto xl:mx-0 lg:mx-0 text-gray-600"></p>
@@ -32,7 +32,7 @@ const portfolioAbout = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center mt-10" style={{paddingLeft: "50px", paddingRight: "50px"}}>
+            <div className="flex items-center justify-center mt-10" style={{paddingLeft: "20px", paddingRight: "20px"}}>
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6 w-full">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
                             <img src={client1} height={80} width={140} />

@@ -100,7 +100,7 @@ const About = () => {
             <p className="font-normal text-base leading-6 text-gray-600 mt-6">Antive Development was founded in July 7th, 2020 with the main purpose to enter the market to design unique business software meeting client expectations.</p>
         </div>
         <div>
-            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">20+ Projects Completed</p>
+            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">20+ Projects</p>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6"> Our professional team of website developers and web designers are committed to offering exceptional services for your websites which attract end-users and sales, but most importantly bring clients.</p>
         </div>
     </div>
