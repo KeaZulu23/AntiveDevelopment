@@ -59,7 +59,7 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%;"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={Image2}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="#!">
+                <a href="https://www.instagram.com/tv/CZAo0W4oOEB/?igshid=YmMyMTA2M2Y=">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
                     <div class="flex justify-start items-end h-full">

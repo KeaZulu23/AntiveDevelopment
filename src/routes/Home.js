@@ -4,7 +4,6 @@ import About from '../components/About';
 import Developers from '../components/Developers';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-
 import Subscribe from '../components/Subscribe';
 import Client from '../components/Client';
 
@@ -15,8 +14,8 @@ const Home = () => {
     <div>
         <Navbar />
         <Hero />
-        <Client />
         <About />
+        <Client />
         <Developers />
         <Subscribe />
         <Footer />

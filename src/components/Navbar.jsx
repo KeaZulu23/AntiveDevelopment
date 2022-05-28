@@ -36,6 +36,11 @@ const Navbar = () => {
                 <span className="font-bold">Portfolio</span>
               </a>
             </li>
+            <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
+              <a href="/pricing" className="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
+                <span className="font-bold">Pricing</span>
+              </a>
+            </li>
             <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
               <a href="javascript: void(0)" className="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
                 <span className="font-bold">Contact</span>
@@ -68,6 +73,9 @@ const Navbar = () => {
               </li>
               <li className="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
                 <a href="/portfolio" className="focus:outline-none focus:ring-2 focus:ring-white" style={{color: "White"}}>Portfolio</a>
+              </li>
+              <li className="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
+                <a href="/pricing" className="focus:outline-none focus:ring-2 focus:ring-white" style={{color: "White"}}>Pricing</a>
               </li>
               <li className="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
                 <a href="javascript:void(0)" className="focus:outline-none focus:ring-2 focus:ring-white" style={{color: "White"}}>Team</a>

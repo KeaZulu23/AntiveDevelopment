@@ -14,7 +14,7 @@ const Footer = () => {
                             <ul className="md:flex items-center">
                                 <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">ABOUT</li>
                                 <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">SERVICES</li>
-                                <li className="cursor-pointer pt-4 lg:py-0">PRIVACY POLICY</li>
+                                <li className="cursor-pointer pt-4 lg:py-0">TERMS & CONDITIONS</li>
                             </ul>
                         </div>
                         <div className="text-sm text-color mb-10 f-f-l">
