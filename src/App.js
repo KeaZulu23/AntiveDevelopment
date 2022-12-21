@@ -4,6 +4,9 @@ import {Routes, Route} from 'react-router-dom'
 import Home from "./routes/Home";
 import Portfolio from "./routes/Portfolio";
 import Pricing from "./routes/Pricing";
+import Contact from "./routes/Contact";
+import TOC from "./routes/TOC";
+import Services from "./routes/Services";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/pricing' element={<Pricing />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/termsconditions' element={<TOC />} />
+        <Route path='/services' element={<Services />} />
       </Routes>
     </>
   );

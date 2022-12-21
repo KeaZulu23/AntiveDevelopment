@@ -4,8 +4,8 @@ import client1 from '../../assets/img/client-logo/nfmaleka.png'
 import client2 from '../../assets/img/client-logo/BNM Designz.png'
 import client3 from '../../assets/img/client-logo/SM-DESIGNZ.png'
 import client4 from '../../assets/img/client-logo/ballito-villa.png'
-import client5 from "../../assets/img/logo/logo.PNG";
-import client6 from "../../assets/img/logo/logo12.png";
+
+import client5 from "../../assets/img/client-logo/Ice Bomb Logo.png";
 
 
 
@@ -33,25 +33,35 @@ const portfolioAbout = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center mt-10" style={{paddingLeft: "20px", paddingRight: "20px"}}>
-                    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6 w-full">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6 w-full">
+                        <a href="https://nfmalekaattorneys.co.za/">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
                             <img src={client1} height={80} width={140} />
                         </div>
+                        </a>
+                        <a href="http://www.smdesignz.co.za/">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
                             <img src={client3} height={100} width={150} />
                         </div>
+                        </a>
+                        <a href="https://bnmarchitects.co.za/">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
                             <img src={client2} height={100} width={150} />
                         </div>
+                        </a>
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
                             <img src={client4} height={200} width={300} />
                         </div>
+                        <a href="https://icebombs.co.za/">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
-                            <img src={client5} height={200} width={300} />
+                            <img src={client5}style={{height: "100px"}} height={100} width={200} />
                         </div>
+                        </a>
+                        <a href="https://cassoworks.co.za/">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
-                            <img src={client6} height={200} width={350} />
+                        <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12">CassoWorks</p>
                         </div>
+                        </a>
                     </div>
                 </div>
         </div>

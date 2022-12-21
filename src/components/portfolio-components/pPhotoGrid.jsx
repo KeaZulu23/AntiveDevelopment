@@ -2,10 +2,14 @@ import React from "react";
 
 
 import Image2 from '../../assets/img/portfolio/2.jpg'
-import Image5 from '../../assets/img/portfolio/5.jpg'
+import Image5 from '../../assets/img/portfolio/image4.jpg'
 import Image8 from '../../assets/img/portfolio/8.jpg'
 import Image11 from '../../assets/img/portfolio/11.jpg'
-import Image14 from '../../assets/img/portfolio/14.jpg'
+import Image14 from '../../assets/img/portfolio/image3.jpg'
+import ImageIb from '../../assets/img/portfolio/image5.jpg'
+import ImageTee from '../../assets/img/portfolio/image2.jpg'
+import ImageEl from '../../assets/img/portfolio/image1.jpg'
+import ImageTD from '../../assets/img/portfolio/image6.jpg'
 
 const pPhotoGrid = () => {
     return (
@@ -93,8 +97,23 @@ const pPhotoGrid = () => {
                 </a>
             </div>
 
-            <div>
-               
+            <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+                style={{backgroundPosition: "50%;"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
+                <img src={ImageIb}
+                class="w-full transition duration-300 ease-linear align-middle" />
+                <a href="http://nfmalekaattorneys.co.za/">
+                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                    style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+                    <div class="flex justify-start items-end h-full">
+                    <h5 class="text-lg font-bold text-white m-6">Ice Bombs </h5>
+                    </div>
+                </div>
+                <div class="hover-overlay">
+                    <div
+                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+                </div>
+                </a>
             </div>
 
             <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
@@ -106,6 +125,63 @@ const pPhotoGrid = () => {
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
                     <div class="flex justify-start items-end h-full">
                     <h5 class="text-lg font-bold text-white m-6">BNMA Designs</h5>
+                    </div>
+                </div>
+                <div class="hover-overlay">
+                    <div
+                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+                </div>
+                </a>
+            </div>
+
+            <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+                style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
+                <img src={ImageTee}
+                class="w-full transition duration-300 ease-linear align-middle" />
+                <a href="https://www.bnmarchitects.co.za/">
+                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                    style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
+                    <div class="flex justify-start items-end h-full">
+                    <h5 class="text-lg font-bold text-white m-6">Casso Works</h5>
+                    </div>
+                </div>
+                <div class="hover-overlay">
+                    <div
+                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+                </div>
+                </a>
+            </div>
+
+            <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+                style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
+                <img src={ImageEl}
+                class="w-full transition duration-300 ease-linear align-middle" />
+                <a href="https://www.bnmarchitects.co.za/">
+                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                    style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
+                    <div class="flex justify-start items-end h-full">
+                    <h5 class="text-lg font-bold text-white m-6">Eliashib Group</h5>
+                    </div>
+                </div>
+                <div class="hover-overlay">
+                    <div
+                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
+                </div>
+                </a>
+            </div>
+
+            <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+                style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
+                <img src={ImageTD}
+                class="w-full transition duration-300 ease-linear align-middle" />
+                <a href="https://www.bnmarchitects.co.za/">
+                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                    style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
+                    <div class="flex justify-start items-end h-full">
+                    <h5 class="text-lg font-bold text-white m-6">Top Dawg Media House</h5>
                     </div>
                 </div>
                 <div class="hover-overlay">

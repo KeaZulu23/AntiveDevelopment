@@ -1,63 +1,73 @@
 import React from 'react';
 
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
-
 const About = () => {
-  const features = [
-    {
-      name: 'UI/UX Design',
-      description:
-        'With services ranging from UX research, design sprints, user testing and UI design for web and mobile, we help our clients to create the best digital experiences.',
-      icon: GlobeAltIcon,
-    },
-    {
-      name: 'Web Development',
-      description:
-        'Your website is a space beyond mere online availability. It is a platform to distinguish your brand as established, credible, and successful. At our company, we formulate impressive user experiences that challenge the current archetype and set you apart from the rest.',
-      icon: ScaleIcon,
-    },
-    {
-      name: 'Progressive Web Application Solutions',
-      description:
-        'Need an app to increase sales, improve efficiency, improve productivity, increase workforce flexibility or to be a market disruptor? Make your software accessible anywhere and everywhere with a Progressive Web Application (PWA). This smart solution simulates the behavior of native mobile apps but offers much faster development.',
-      icon: LightningBoltIcon,
-    },
-    {
-      name: 'Graphics Design',
-      description:
-        'We use words, images and video to tell stories that connect brands to audiences, delivering defined engagement outcomes.',
-      icon: AnnotationIcon,
-    },
-  ]
   return (
     <div className="py-12 bg-white" style={{paddingLeft: "20px", paddingRight: "20px"}}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
-          <h2 className="text-base text-blue-700 font-semibold tracking-wide uppercase">Services</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            What We Do
-          </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          We create perfect brands, build outstanding websites and vibrant identities and inspire creative concepts. We make your brand, concept, web site and identity into a digital legend recalled throughout the ages of digital. 
-          </p>
-        </div>
-
-        <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative">
-                <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-700 text-white">
-                    <feature.icon className="h-6 w-6" aria-hidden="true" />
-                  </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
-              </div>
-            ))}
-          </dl>
+      <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">About Us</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Our strong foundation, adaptability, and complete transparency helped us establish ourselves as a reliable technological partner for our clients. The name Antive Development is a byword for premium goods and services.</p>
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Reliable</span>
         </div>
       </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Solutions</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Experienced</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Affordable</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Committed</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Quality</span>
+        </div>
+      </div>
+    </div>
+    <a href='/services'><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Services</button></a>
+  </div>
+</section>
 
     <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
       <p className="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2">About</p>
@@ -96,8 +106,8 @@ const About = () => {
     </div>
     <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
         <div>
-            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded in 2020</p>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6">Antive Development was founded in July 7th, 2020 with the main purpose to enter the market to design unique business software meeting client expectations.</p>
+            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded in 2021</p>
+            <p className="font-normal text-base leading-6 text-gray-600 mt-6">Antive Development was founded with the main purpose to enter the market to design unique solutions meeting client expectations, while maintaining affordablity.</p>
         </div>
         <div>
             <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">20+ Projects</p>
@@ -105,58 +115,56 @@ const About = () => {
         </div>
     </div>
 
+    <div style={{paddingTop: "30px"}}>
+            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">The Antive Transparent Development Model</p>
+            <p className="font-normal text-base leading-6 text-gray-600 mt-6"> The customer is involved in the development process at every stage thanks to our software development model, which also maintains transparency. <br /><br /> We guarantee a satisfactory product in all stages of software development by involving the customer. It enables the client to comprehend the fundamentals of development and to join the Antive team. <br /><br /> The Antive development model puts the customer in control of the process, increasing trust and returns from the delivered product.</p>
+    </div>
+
     <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
         <div className="w-full lg:w-6/12">
             <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Mission</h2>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">Create innovative solutions based on emerging technologies to help our clients become globally competitive.</p>
-            <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">Upholding the principles of service delivery, we tender client-centric solutions that bring them maximum productivity in the least resources. We aspire to bring in result-oriented strategies to carve the strategies for product design and creation.
-
-Our professions have contributed the best of their skills to work on the ultimate mission of succoring our identity as credible technology leaders.</p>
+            <br /><br />
+            <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Vision</h2>
+            <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">Develop high quality and affordable web solutions that enable clients to establish a presence online, increase profitability, and continually improve productivity.</p>
+       
         </div>
+        
         <div className="w-full lg:w-6/12">
+        <div className="">
+                        <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Our Process</p> <br/> <br/>
+                    </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
                 {/* <!-- Team Card --> */}
                 <div className="flex p-4 shadow-md">
-                    <div className="mr-6">
-                        <svg className="mr-6" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18 15C20.4853 15 22.5 12.9853 22.5 10.5C22.5 8.01472 20.4853 6 18 6C15.5147 6 13.5 8.01472 13.5 10.5C13.5 12.9853 15.5147 15 18 15Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M25.5 28.5C27.9853 28.5 30 26.4853 30 24C30 21.5147 27.9853 19.5 25.5 19.5C23.0147 19.5 21 21.5147 21 24C21 26.4853 23.0147 28.5 25.5 28.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M10.5 28.5C12.9853 28.5 15 26.4853 15 24C15 21.5147 12.9853 19.5 10.5 19.5C8.01472 19.5 6 21.5147 6 24C6 26.4853 8.01472 28.5 10.5 28.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
+                <div className="mr-6">
+                        <p>1</p>
                     </div>
                     <div className="">
-                        <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Clients</p>
-                        <p className="mt-2 font-normal text-base leading-6 text-gray-600">It doesn't matter if you are a start-up company that wants reasonable website development services or a reputable company looking to improve your online presence, Antive Development offers the best web solutions however above all our work is highly professional.</p>
+                        <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Planning and Design</p>
+                        <p className="mt-2 font-normal text-base leading-6 text-gray-600">Typically, clients know what they want the final product to look like but not what the software should actually do. The software requirements and scope are defined with the assistance of our knowledgeable experts, who create a clear road map for the client and our development teams. Here is where we create the most value for the clients.</p>
                     </div>
                 </div>
 
                 {/* <!-- Board Card --> */}
                 <div className="flex p-4 shadow-md">
-                    <div className="mr-6">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.5 10.5C12.1569 10.5 13.5 9.15685 13.5 7.5C13.5 5.84315 12.1569 4.5 10.5 4.5C8.84315 4.5 7.5 5.84315 7.5 7.5C7.5 9.15685 8.84315 10.5 10.5 10.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M7.5 33V25.5L6 24V18C6 17.6022 6.15804 17.2206 6.43934 16.9393C6.72064 16.658 7.10218 16.5 7.5 16.5H13.5C13.8978 16.5 14.2794 16.658 14.5607 16.9393C14.842 17.2206 15 17.6022 15 18V24L13.5 25.5V33" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M25.5 10.5C27.1569 10.5 28.5 9.15685 28.5 7.5C28.5 5.84315 27.1569 4.5 25.5 4.5C23.8431 4.5 22.5 5.84315 22.5 7.5C22.5 9.15685 23.8431 10.5 25.5 10.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M22.5 33V27H19.5L22.5 18C22.5 17.6022 22.658 17.2206 22.9393 16.9393C23.2206 16.658 23.6022 16.5 24 16.5H27C27.3978 16.5 27.7794 16.658 28.0607 16.9393C28.342 17.2206 28.5 17.6022 28.5 18L31.5 27H28.5V33" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
+                <div className="mr-6">
+                        <p>2</p>
                     </div>
                     <div className="">
-                        <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Live Designs</p>
-                        <p className="mt-2 font-normal text-base leading-6 text-gray-600">Our goal is to be a valued partner that becomes indispensible in achieving market dominance. </p>
+                        <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Implementation, testing and documenting</p>
+                        <p className="mt-2 font-normal text-base leading-6 text-gray-600">At Antive, we recognize that the success of any plan depends on how well it is carried out, and our software specialists make sure that we adhere to the rules to the letter. Our quality control team makes sure that errors are found as quickly as possible. </p>
                     </div>
                 </div>
 
                 {/* <!-- Press Card --> */}
                 <div className="flex p-4 shadow-md">
                     <div className="mr-6">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M28.5 7.5H7.5C5.84315 7.5 4.5 8.84315 4.5 10.5V25.5C4.5 27.1569 5.84315 28.5 7.5 28.5H28.5C30.1569 28.5 31.5 27.1569 31.5 25.5V10.5C31.5 8.84315 30.1569 7.5 28.5 7.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M4.5 10.5L18 19.5L31.5 10.5" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
+                        <p>3</p>
                     </div>
                     <div className="">
-                        <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Projects Completed</p>
-                        <p className="mt-2 font-normal text-base leading-6 text-gray-600">Whether you're looking to build an application from scratch; evolve and upgrade an existing product, or future proof your idea - we have a Proven Track Record, Expertise and Tech Talent to bring your vision into fruition fast and cost-effectively.</p>
+                        <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Deployment and maintenance</p>
+                        <p className="mt-2 font-normal text-base leading-6 text-gray-600">Once the client approves the product, we move on to deployment. Our support staff makes sure that the applications are running in the proper environment and takes care of any problems</p>
                     </div>
                 </div>
             </div>
