@@ -39,7 +39,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
-              <a href="javascript: void(0)" className="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
+              <a href="/contact" className="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
                 <span className="font-bold">Contact</span>
               </a>
             </li>
