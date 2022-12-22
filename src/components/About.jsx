@@ -170,6 +170,36 @@ const About = () => {
             </div>
         </div>
         </div>
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex w-full mb-20 flex-wrap">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Specialization</h1>
+      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+    </div>
+    <div class="flex flex-wrap md:-m-2 -m-1">
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://miro.medium.com/max/1400/1*SwFB1o_k1LGprN-XRUZQ8w.jpeg"/>
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://kodytechnolab.com/img/blog/big/reactjs-vs-react-native.jpg"/>
+        </div>
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://www.newagesmb.com/images/2022/03/Native-Mobile-App-Development.png"/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://www.revenueriver.co/hubfs/fullstack.jpeg"/>
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://cdn.sanity.io/images/s7xbv9bz/production/1562d4dae8dc03456edca898e89c0f39ae086a8f-1600x1000.png?w=1200&h=750&auto=format&fm=webp"/>
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/04/106032482.jpeg?auto=format&q=60&w=1280&h=1280&fit=crop&crop=faces"/>
+        </div>
+      </div>
+    </div>
+  </div>
     </div>
     </div>
   )

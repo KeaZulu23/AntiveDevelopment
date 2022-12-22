@@ -37,7 +37,7 @@ const Hero = () => {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="/portfolio"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-300 hover:bg-blue-500 md:py-4 md:text-lg md:px-10"
                   >
                     Portfolio
