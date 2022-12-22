@@ -1,6 +1,7 @@
 import React from "react";
 import {Routes, Route} from 'react-router-dom'
-
+import posthog from 'posthog-js' // new
+import CookieBanner from "./CookieBanner";
 import Home from "./routes/Home";
 import Portfolio from "./routes/Portfolio";
 import Pricing from "./routes/Pricing";

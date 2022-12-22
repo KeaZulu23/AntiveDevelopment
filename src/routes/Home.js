@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Subscribe from '../components/Subscribe';
 import Client from '../components/Client';
-
+import CookieBanner from '../CookieBanner';
 import Navbar from '../components/Navbar.jsx';
 
 const Home = () => {
@@ -14,6 +14,7 @@ const Home = () => {
     <div>
         <Navbar />
         <Hero />
+        <CookieBanner />
         <About />
         <Client />
         <Developers />
