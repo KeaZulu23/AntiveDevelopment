@@ -11,8 +11,8 @@ const Pricing = () => {
   return (
     <div>
         <Navbar />
-        <HeroPricing />
-        
+        {/* <HeroPricing />
+        <PricingCTA /> */}
         <Footer />
     </div>
   );
