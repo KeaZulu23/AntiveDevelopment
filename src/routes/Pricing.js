@@ -12,7 +12,7 @@ const Pricing = () => {
     <div>
         <Navbar />
         <HeroPricing />
-        <PricingCTA />
+        
         <Footer />
     </div>
   );
