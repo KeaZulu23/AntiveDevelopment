@@ -14,7 +14,7 @@ const Subscribe = () => {
                         </div>
                         <div className="md:mt-12 mt-20">
                             <a href="https://wa.me/+27718796137">
-                                <button className="text-base font-medium leading-4 text-white bg-white sm:w-auto w-full rounded p-4 focus:outline-none hover:bg-gray-100 focus:ring-2 focus:ring-offset-2 focus:ring-white">Press Here</button>
+                                <button className="text-base font-medium leading-4 text-white bg-white sm:w-auto w-full rounded p-4 focus:outline-none hover:bg-gray-100 focus:ring-2 focus:ring-offset-2 focus:ring-white">WhatsApp</button>
                             </a>
                         </div>
                     </div>

@@ -5,9 +5,8 @@ const ServicesCom = () => {
     <div class="bg-white py-24 sm:py-32 lg:py-40">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="sm:text-center">
-      <h2 class="text-lg font-semibold leading-8 text-indigo-600">Our Services</h2>
-      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Web Design & Development</p>
-      <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">We implement extensive projects and provide top-notch web, mobile, and e-commerce solutions thanks to our strong understanding of contemporary technology and our strong expertise in numerous business domains.</p>
+      <p class="mt-2 text-3xl font-medium title-font tracking-tight text-gray-900 sm:text-4xl">Our Services </p>
+      <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">Our development services include planning, design, development, testing, deployment, and maintenance to help businesses build and maintain high-quality mobile apps, websites and e-commerce platforms that meet their specific needs and goals. </p>
     </div>
 
     <div class="mt-20 max-w-lg sm:mx-auto md:max-w-none">
@@ -21,6 +20,9 @@ const ServicesCom = () => {
           <div class="sm:min-w-0 sm:flex-1">
             <p class="text-lg font-semibold leading-8 text-gray-900">Full-Stack Web Development</p>
             <p class="mt-2 text-base leading-7 text-gray-600">We create unique web products that are catered to the unique business requirements of our clients and support them every step of the way, from conception to execution. </p>
+            <div class="">
+              <a href='/fullstack'><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Click Here</button></a>
+            </div>
           </div>
         </div>
 
@@ -31,8 +33,11 @@ const ServicesCom = () => {
             </svg>
           </div>
           <div class="sm:min-w-0 sm:flex-1">
-            <p class="text-lg font-semibold leading-8 text-gray-900">Search Engine Optimization (SEO)</p>
-            <p class="mt-2 text-base leading-7 text-gray-600">Any successful internet marketing campaign starts with a solid, optimized website. The best method for ensuring a steady flow of free, targeted traffic to your website is search engine optimization.</p>
+            <p class="text-lg font-semibold leading-8 text-gray-900">E-Commerce Solutions</p>
+            <p class="mt-2 text-base leading-7 text-gray-600">Delight your customers with an omnichannel experience through our robust and scalable enterprise Commerce solutions fully tailored to your business requirements. </p>
+            <div class="">
+              <a href='/ecommerce'><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Click Here</button></a>
+            </div>
           </div>
         </div>
 
@@ -45,6 +50,9 @@ const ServicesCom = () => {
           <div class="sm:min-w-0 sm:flex-1">
             <p class="text-lg font-semibold leading-8 text-gray-900">Graphic Design</p>
             <p class="mt-2 text-base leading-7 text-gray-600">Your dream of having a distinctive brand recognition and identity can be realized thanks to the incredible designs created by our team of web designers. </p>
+            <div class="">
+              <a href='/graphicdesign'><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Click Here</button></a>
+            </div>
           </div>
         </div>
 
@@ -55,8 +63,11 @@ const ServicesCom = () => {
             </svg>
           </div>
           <div class="sm:min-w-0 sm:flex-1">
-            <p class="text-lg font-semibold leading-8 text-gray-900">Native Mobile App Development</p>
+            <p class="text-lg font-semibold leading-8 text-gray-900">Native Mobile-App Development</p>
             <p class="mt-2 text-base leading-7 text-gray-600">Invest in mobile apps that are highly developed, packed with features, and provide visually stunning delight to ensure an enthralling presence on the digital landscape. You can anticipate ground-breaking app solutions on all major mobile platforms thanks to our expertise in this field. </p>
+            <div class="">
+            <a href='/nativeapp'><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Click Here</button></a>
+          </div>
           </div>
         </div>
       </div>

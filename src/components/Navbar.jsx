@@ -11,7 +11,7 @@ const Navbar = () => {
     <><nav className="lg:hidden relative z-50 bg-blue-700">
       <div className="flex py-2 justify-between items-center px-4">
         <div>
-          <img src={logo} alt="logo" height={50} width={100} />
+          <img src={logo} alt="logo" style={{height: "80px", width: "100px"}} />
         </div>
         <div className="visible flex items-center">
           <button id="open" onClick={() => setMenu(!menu)} className={` ${menu ? 'hidden' : ''} focus:outline-none focus:ring-2 focus:ring-black`}>
@@ -53,9 +53,9 @@ const Navbar = () => {
       </div>
     </nav>
     <nav className="f-f-l relative z-10 bg-blue-700">
-        <div className="relative z-10 mx-auto container hidden w-full px-4 xl:px-0 lg:flex justify-between items-center py-11">
+        <div style={{height: "80px"}} className="relative z-10 mx-auto container hidden w-full px-4 xl:px-0 lg:flex justify-between items-center py-11">
           <div>
-            <img src={logo} alt="logo" height={50} width={100} />
+            <img src={logo} alt="logo" style={{height: "80px", width: "100px", paddingLeft: "20px"}} />
           </div>
           <div className="flex items-center text-white text-base font-medium">
             <ul className="flex items-center pr-3 xl:pr-12">
@@ -85,3 +85,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

@@ -8,6 +8,10 @@ import Pricing from "./routes/Pricing";
 import Contact from "./routes/Contact";
 import TOC from "./routes/TOC";
 import Services from "./routes/Services";
+import Graphicdesign from "./routes/Graphic Design";
+import Fullstack from "./routes/Full Stack";
+import NativeApp from "./routes/Native Mobile";
+import Ecommerce from "./routes/ecommerce";
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/termsconditions' element={<TOC />} />
         <Route path='/services' element={<Services />} />
+        <Route path='/graphicdesign' element={<Graphicdesign />} />
+        <Route path='/fullstack' element={<Fullstack />} />
+        <Route path='/nativeapp' element={<NativeApp />} />
+        <Route path='/ecommerce' element={<Ecommerce />} />
       </Routes>
     </>
   );
