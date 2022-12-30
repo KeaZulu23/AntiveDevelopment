@@ -5,13 +5,22 @@ const CookieBanner = () => {
   
     return (
         <CookieConsent
+        onAccept={(acceptedByScrolling) => {
+          if (acceptedByScrolling) {
+            // triggered if user scrolls past threshold
+            alert("Accept was triggered by user scrolling");
+          } else {
+            alert("Accept was triggered by clicking the Accept button");
+          }
+        }}
         debug={true}
         location="bottom"
         buttonText="Accept"
         cookieName="myAwesomeCookieName2"
         style={{ backgroundColor: "black" }}
         buttonStyle={{ color: "white", fontSize: "13px", backgroundColor: "blue" }}
-        expires={3}
+        expires={1}
+        enableDeclineButton flipButtons
       >
         <p style={{fontSize: "11px"}}>
         The new Protection of Personal Information (POPI) Act Regulations are effective from 1 July 2021. This means we need your consent to receive our direct marketing material. No spam, we promise!<br /><br />
