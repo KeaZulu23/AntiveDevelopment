@@ -3,7 +3,6 @@ import React from 'react';
 const About = () => {
   return (
     <div className="py-12 bg-white" style={{paddingLeft: "20px", paddingRight: "20px"}}>
-      <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">What is Antive Development?</h1>
@@ -66,7 +65,7 @@ const About = () => {
       </div>
     </div>
   </div>
-</section>
+
 
     <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
       <p className="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2">About</p>
@@ -81,7 +80,6 @@ const About = () => {
             <img className="sm:hidden block w-full" src="https://www.kcsitglobal.com/images/product-engineering_img_new.png" alt="people discussing on board" />
         </div>
     </div>
-    <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">Our Story </h1>
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -117,7 +115,6 @@ const About = () => {
       </div>
     </div>
   </div>
-</section>
         
 
   <div class="container px-5 py-24 mx-auto flex flex-wrap">

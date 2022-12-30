@@ -1,5 +1,4 @@
 import React from 'react';
-import terminal from '../assets/terminal.png'
 
 import boss from '../assets/boss.webp'
 
