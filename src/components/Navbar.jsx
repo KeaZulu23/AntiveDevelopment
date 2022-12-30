@@ -11,7 +11,7 @@ const Navbar = () => {
     <><nav className="lg:hidden relative z-50 bg-blue-700">
       <div className="flex py-2 justify-between items-center px-4">
         <div>
-          <img src={logo} alt="logo" style={{height: "80px", width: "100px"}} />
+          <a href='/'><img src={logo} alt="logo" style={{height: "80px", width: "100px"}} /></a>
         </div>
         <div className="visible flex items-center">
           <button id="open" onClick={() => setMenu(!menu)} className={` ${menu ? 'hidden' : ''} focus:outline-none focus:ring-2 focus:ring-black`}>
