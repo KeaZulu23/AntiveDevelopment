@@ -11,10 +11,10 @@ const Client = () => {
 
     return (
     <div className="2xl:px-20 md:px-10 2xl:mx-auto 2xl:container bg-gray-100" style={{paddingLeft: "20px", paddingRight: "20px", background: "white"}}>
-            <div className="md:py-12 py-8 px-4">
-                <div className="flex flex-col items-center justify-center bg-gray-100" >
-                    <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold leading-10 text-gray-800">Our Client History</h1>
-                    <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12">Our years of experience in the industry paired with a client-oriented approach not only gives us an edge against the competition but it allows us to achieve remarkable results consistently.</p>
+            <div className="md:py-12 py-8 px-4 bg-gray-100">
+                <div className="flex flex-col items-center justify-center bg-white" >
+                    <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold leading-10 text-gray-800 bg-white">Our Client History</h1>
+                    <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12 bg-white">Our years of experience in the industry paired with a client-oriented approach not only gives us an edge against the competition but it allows us to achieve remarkable results consistently.</p>
                 </div>
                 <div className="flex items-center justify-center mt-10">
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6 w-full">
