@@ -101,7 +101,7 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%;"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={ImageIb}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="http://nfmalekaattorneys.co.za/">
+                <a href="https://icebombs.co.za/">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
                     <div class="flex justify-start items-end h-full">
@@ -139,7 +139,7 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={ImageTee}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="https://www.bnmarchitects.co.za/">
+                <a href="https://cassoworks.co.za/">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
                     <div class="flex justify-start items-end h-full">
@@ -158,7 +158,7 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={ImageEl}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="https://www.bnmarchitects.co.za/">
+                <a href="http://eliashib.com/">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
                     <div class="flex justify-start items-end h-full">
@@ -177,7 +177,7 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={ImageTD}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="https://www.bnmarchitects.co.za/">
+                <a href="https://topdawgmediahouse.co.za/">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
                     <div class="flex justify-start items-end h-full">
