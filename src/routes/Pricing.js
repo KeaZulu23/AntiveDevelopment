@@ -10,7 +10,7 @@ const Pricing = () => {
   return (
     <div>
         <Navbar />
-        <HeroPricing />
+        {/* <HeroPricing /> */}
         <Footer />
     </div>
   );
