@@ -3,7 +3,7 @@ import React from "react";
 
 import Image2 from '../../assets/img/portfolio/2.jpg'
 import Image5 from '../../assets/img/portfolio/image4.jpg'
-import Image8 from '../../assets/img/portfolio/8.jpg'
+import Image8 from '../../assets/img/portfolio/OnlineCV.png'
 import Image11 from '../../assets/img/portfolio/11.jpg'
 import Image14 from '../../assets/img/portfolio/image3.jpg'
 import ImageIb from '../../assets/img/portfolio/image5.jpg'
@@ -25,68 +25,11 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={Image8}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="https://keazulu23.github.io/MyCV">
+                <a href="https://keazulu23.github.io/OnlineCV/">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
                     <div class="flex justify-start items-end h-full">
                     <h5 class="text-lg font-bold text-white m-6">Kea's Online CV</h5>
-                    </div>
-                </div>
-                <div class="hover-overlay">
-                    <div
-                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
-                    style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
-                </div>
-                </a>
-            </div>
-
-            <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
-                style={{backgroundPosition: "50%;"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
-                <img src={Image11}
-                class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="http://www.smdesignz.co.za/">
-                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                    style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
-                    <div class="flex justify-start items-end h-full">
-                    <h5 class="text-lg font-bold text-white m-6">SM-Designz</h5>
-                    </div>
-                </div>
-                <div class="hover-overlay">
-                    <div
-                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
-                    style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
-                </div>
-                </a>
-            </div>
-
-            <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
-                style={{backgroundPosition: "50%;"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
-                <img src={Image2}
-                class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="https://www.instagram.com/tv/CZAo0W4oOEB/?igshid=YmMyMTA2M2Y=">
-                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                    style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
-                    <div class="flex justify-start items-end h-full">
-                    <h5 class="text-lg font-bold text-white m-6">Flvme</h5>
-                    </div>
-                </div>
-                <div class="hover-overlay">
-                    <div
-                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
-                    style={{backgroundColor: "rgba(253, 253, 253, 0.15)"}}></div>
-                </div>
-                </a>
-            </div>
-
-            <div class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
-                style={{backgroundPosition: "50%;"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
-                <img src={Image14}
-                class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="http://nfmalekaattorneys.co.za/">
-                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-                    style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
-                    <div class="flex justify-start items-end h-full">
-                    <h5 class="text-lg font-bold text-white m-6">N.F. Maleka Attorneys Inc</h5>
                     </div>
                 </div>
                 <div class="hover-overlay">
@@ -120,7 +63,7 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={Image5}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="https://www.bnmarchitects.co.za/">
+                <a href="https://keazulu23.github.io/BNM-DesignsSA/">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
                     <div class="flex justify-start items-end h-full">
@@ -158,7 +101,7 @@ const pPhotoGrid = () => {
                 style={{backgroundPosition: "50%"}} data-mdb-ripple="true" data-mdb-ripple-color="dark">
                 <img src={ImageEl}
                 class="w-full transition duration-300 ease-linear align-middle" />
-                <a href="http://eliashib.com/">
+                <a href="https://keazulu23.github.io/EliashibGroup/">
                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}S>
                     <div class="flex justify-start items-end h-full">

@@ -23,12 +23,12 @@ const Client = () => {
                             <img src={client1} height={80} width={140} />
                         </div>
                         </a>
-                        <a href="http://www.smdesignz.co.za/">
+                        <a href=" ">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
                             <img src={client3} height={100} width={150} />
                         </div>
                         </a>
-                        <a href="https://bnmarchitects.co.za/">
+                        <a href="https://keazulu23.github.io/BNM-DesignsSA/">
                         <div className="md:w-48 w-full h-32 bg-gray-50 flex items-center justify-center">
                             <img src={client2} height={100} width={150} />
                         </div>

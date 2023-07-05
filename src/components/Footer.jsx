@@ -41,16 +41,16 @@ const Footer = () => {
           Products
         </h6>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Full-Stack Web Development</a>
+          <a href="/fullstack" class="text-gray-600">Full-Stack Web Development</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Native Mobile App Development</a>
+          <a href="/nativeapp" class="text-gray-600">Native Mobile App Development</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">E-Commerce Solutions</a>
+          <a href="/ecommerce" class="text-gray-600">E-Commerce Solutions</a>
         </p>
         <p>
-          <a href="#!" class="text-gray-600">Graphic Design</a>
+          <a href="/graphicdesign" class="text-gray-600">Graphic Design</a>
         </p>
       </div>
       <div class="">

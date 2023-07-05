@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <div>
         <Navbar />
-        <Client />
+        {/* <Client /> */}
         <PPhotoGrid />
         <PortfolioAbout />
         <Footer />
